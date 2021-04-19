@@ -79,7 +79,7 @@ letter-spacing: 2px;
     font-size: 30px;
     font-family: 'Orelega One', cursive; 
     letter-spacing: 2px; 
-    transition: 4s;
+    transition: 1s;
     background-color: darkcyan;
 }
 
@@ -95,15 +95,29 @@ background-size: 100%;
 
 }
 
-#DrumBlock {
+@keyframes DrumAnimation {
+
+   from {
     transform: rotate(155deg);
+   } 
+
+   to {
+    transform: rotate(1155deg);
+   }
+}
+
+#DrumBlock {
+    animation: DrumAnimation;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: 5;
     width: 270px;
     height: 270px;
     background-image: url('drum.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    transition: 3s;
+    transition: 10s;
 }
 
 #Button {
