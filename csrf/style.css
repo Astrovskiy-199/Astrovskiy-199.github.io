@@ -1,0 +1,136 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+#MainBlock {
+    width: 100%;
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('show.jpg');
+    background-position: top,center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    min-width: 900px;
+    background-color: darkcyan;
+    
+}
+
+
+
+#Header {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: 150px;
+    background-color: #9966CC;
+    
+}
+
+#HeaderText {
+    color: pink;
+    font-size: 40px;
+    font-family: 'Orelega One', cursive;
+    letter-spacing: 2px;
+
+}
+
+
+#HeaderSmallText {
+color: pink;
+font-size: 30px;
+font-family: 'Orelega One';
+letter-spacing: 2px;
+
+}
+
+#SpinDrumText {
+    margin-top: 30px;
+    color: pink;
+    font-size: 30px;
+    font-family: 'Orelega One', cursive;  
+    letter-spacing: 2px;
+}
+
+#SoSorryText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-top: -1500px;
+    color: burlywood;
+    font-size: 30px;
+    font-family: 'Orelega One', cursive; 
+    letter-spacing: 2px; 
+    transition: 4s;
+    background-color: darkcyan;
+}
+
+#ArrowDown {
+    margin-top: 100px;
+width: 50px;
+height: 50px;
+background-image: url('arrow.png.crdownload');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+
+
+}
+
+#DrumBlock {
+    transform: rotate(155deg);
+    width: 270px;
+    height: 270px;
+    background-image: url('drum.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: 3s;
+}
+
+#Button {
+
+    width: 310px;
+    height: 180px;
+    margin-top: 15px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: wheat;
+    font-weight: 900;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.473); /* Параметры тени */
+    padding: 10px;
+    transition: 0.5s;
+    
+
+}
+
+#Button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    border: 6px solid pink;
+}
+.form-control {
+visibility: hidden;
+}    
